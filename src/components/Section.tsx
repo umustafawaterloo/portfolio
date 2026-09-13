@@ -14,6 +14,8 @@ interface SectionProps {
  * "kicker" label, heading, and short assisting text under the heading.
  * `scroll-mt-24` keeps the sticky header from covering the top of the section when
  * a nav link scrolls here — must stay >= the header's rendered height.
+ * The kicker/title keep the original system font (`font-sans`) rather than the
+ * site's Space Grotesk body font, so they stay visually distinct from body text.
  */
 export default function Section({ id, kicker, title, helperText, children, className = '' }: SectionProps) {
   return (
@@ -22,9 +24,11 @@ export default function Section({ id, kicker, title, helperText, children, class
         {(kicker || title) && (
           <div className="mb-8">
             {kicker && (
-              <p className="text-accent mb-2 text-sm font-semibold tracking-wide uppercase">{kicker}</p>
+              <p className="text-accent mb-2 font-sans text-sm font-semibold tracking-wide uppercase">
+                {kicker}
+              </p>
             )}
-            {title && <h2 className="text-ink text-3xl font-bold sm:text-4xl">{title}</h2>}
+            {title && <h2 className="text-ink font-sans text-3xl font-bold sm:text-4xl">{title}</h2>}
             {helperText && <p className="text-ink-soft mt-3 max-w-2xl">{helperText}</p>}
           </div>
         )}
