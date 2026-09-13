@@ -4,7 +4,7 @@ A single-page software engineering portfolio: intro, about, internships,
 a project carousel, technical skills, and contact — built to send to
 internship recruiters.
 
-**Live site:** https://portfolio-puce-gamma-24.vercel.app/
+**Live site:** https://umarmustafa.vercel.app/
 
 ## Tech stack
 
