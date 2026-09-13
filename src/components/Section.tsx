@@ -17,7 +17,7 @@ interface SectionProps {
  */
 export default function Section({ id, kicker, title, helperText, children, className = '' }: SectionProps) {
   return (
-    <section id={id} className={`scroll-mt-24 py-16 sm:py-20 ${className}`}>
+    <section id={id} className={`scroll-mt-24 py-8 sm:py-12 ${className}`}>
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {(kicker || title) && (
           <div className="mb-8">

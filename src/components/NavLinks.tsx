@@ -14,7 +14,7 @@ const navItems: NavItem[] = [
 
 export default function NavLinks() {
   return (
-    <ul className="flex items-center gap-1 sm:gap-2">
+    <ul className="flex flex-wrap items-center gap-x-1 gap-y-1 sm:gap-x-2">
       {navItems.map((item) => (
         <li key={item.id}>
           <a
