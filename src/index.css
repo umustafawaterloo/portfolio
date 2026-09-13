@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-accent: #6cabdd;
+  --color-ink: #16181d;
+  --color-ink-soft: #4b5259;
+  --color-paper: #ffffff;
+  --color-hairline: #e6e8eb;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

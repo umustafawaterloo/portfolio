@@ -1,0 +1,67 @@
+import type { Internship } from '../types'
+
+export const internships: Internship[] = [
+  {
+    id: 'ibm',
+    company: 'IBM',
+    role: 'Software Engineer Intern',
+    timeframe: 'May 2026 – Aug 2026',
+    location: 'Yorktown Heights, NY',
+    team: 'Quantum',
+    logo: '/images/ibm_logo.jpg',
+    bullets: [
+      'Modeled 12 hardware and cloud infrastructure metadata tables in PostgreSQL using SQLAlchemy in Python.',
+      'Used SQL queries to visualize 1,000+ service deployment events with 20+ versioning attributes on Grafana.',
+      'Sourced Kubernetes clusters to track historical quantum service deployments from 30+ Docker repositories.',
+      'Improved debugging efficiency by 50% by correlating stack failures with service version changes and deployments.',
+      'Worked in an Agile team of 4 engineers to deliver internal observability tooling for quantum computing testing.',
+    ],
+  },
+  {
+    id: 'rbc',
+    company: 'Royal Bank of Canada',
+    role: 'Software Engineer Intern',
+    timeframe: 'Sep 2025 – Dec 2025',
+    location: 'Toronto, ON',
+    team: 'Service Virtualization',
+    logo: '/images/rbc_logo.jpg',
+    bullets: [
+      'Designed a Spring microservice in Java to apply validation rules on payment requests from 5,000 clients.',
+      'Engineered Apache Camel routes with IBM MQ to orchestrate over 500 bulk transactions asynchronously.',
+      'Containerized virtualized services with Docker, improving deployments and CI/CD pipeline reliability by 30%.',
+      'Managed sprints and issue tracking in Jira within an Agile team of 6, streamlining collaboration and releases.',
+      'Showcased AI based document-filling workflows with Copilot, VSCode, and GPT-5 to 200+ participants.',
+    ],
+  },
+  {
+    id: 'zown',
+    company: 'Zown Realty Inc.',
+    role: 'Software Engineer Intern',
+    timeframe: 'Jan 2025 – Apr 2025',
+    location: 'Toronto, ON',
+    team: 'Backend Engineering',
+    logo: '/images/zown_logo.jpg',
+    bullets: [
+      'Built an Express app in TypeScript to automate DocuSign envelope filling, reducing drafting time by 75%.',
+      'Developed a FastAPI service with PostgreSQL spatial indexing to locate amenities for 5,000 listed properties.',
+      'Integrated NLP pipelines to extract data fields from 10,000+ agent-client chat messages for document filling.',
+      'Containerized applications with Docker to enable reproducible Python deployments across cloud environments.',
+      "Populated an SQL database on AWS with 1,000 properties' ML features, eliminating API use for AI workflows.",
+    ],
+  },
+  {
+    id: 'optimus',
+    company: 'Optimus Health Analytics',
+    role: 'Software Engineer Intern',
+    timeframe: 'Jan 2024 – Aug 2024',
+    location: 'Bronx, NY',
+    team: 'Data',
+    logo: '/images/optimus_logo.jpg',
+    bullets: [
+      'Engineered a PyTorch model in Python using health insurance records to predict ER visits with 90% accuracy.',
+      'Merged diagnosis and services datasets in SQL, creating 50,000 labeled training data records for the ML model.',
+      'Developed a React/JavaScript platform visualizing patient medication adherence to gauge NY healthcare gaps.',
+      'Leveraged AWS to store and manage 100,000+ healthcare records, enabling scalable analytics of health data.',
+    ],
+  },
+]
