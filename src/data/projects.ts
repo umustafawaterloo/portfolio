@@ -7,7 +7,7 @@ export const projects: Project[] = [
     caption:
       'FIRST Competition robot that operates autonomously and manually using sensors, odometry, and custom controls',
     photo: '/images/TitaniumKnightsRobotics.jpg',
-    githubUrl: null,
+    githubUrl: 'https://github.com/titanium-knights/team-b-2022-2023',
     tech: ['Java', 'Python', 'Spring', 'OpenCV'],
   },
   {
