@@ -19,11 +19,6 @@ export default function InternshipCard({ internship }: { internship: Internship 
           </p>
         </div>
       </div>
-      <ul className="text-ink-soft mt-4 list-disc space-y-2 pl-5">
-        {internship.bullets.map((bullet, i) => (
-          <li key={i}>{bullet}</li>
-        ))}
-      </ul>
     </article>
   )
 }
