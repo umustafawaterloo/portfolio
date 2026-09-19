@@ -12,7 +12,7 @@ export const contactLinks: ContactLink[] = [
   {
     id: 'github',
     label: 'GitHub',
-    href: 'https://github.com/umaralimustafa',
+    href: 'https://github.com/umustafawaterloo',
     icon: FaGithub,
   },
   {
