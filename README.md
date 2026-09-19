@@ -1,8 +1,4 @@
-# Umar Mustafa — Software Engineering Portfolio
-
-A single-page software engineering portfolio: intro, about, internships,
-a project carousel, technical skills, and contact — built to send to
-internship recruiters.
+# Umar Mustafa Portfolio
 
 **Live site:** https://umarmustafa.vercel.app/
 
